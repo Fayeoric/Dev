@@ -1,0 +1,65 @@
+body {
+  background-color: #ecf0f2;
+}
+
+.row {
+  padding: 25px;
+  margin-top: 25px;
+  background-color: #fff;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 4px -1px rgba(0,0,0,0.75);
+}
+
+h3 {
+  margin: 0px;
+  font-variant: all-small-caps;
+  font-weight: 600;
+  margin-bottom:15px;
+}
+
+.panel-body {
+  padding:0px;
+  min-height:150px;
+}
+
+.divTop {
+  min-height: 100px;
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+
+.divLeft {
+  float: left;
+  width:50%;
+  padding-left:15px;
+}
+
+.divRight {
+  float: right;
+  width:50%;
+  text-align:right;
+  padding-right:10px;
+}
+
+.headInfo {
+  font-variant: all-small-caps;
+  font-weight: 600;
+}
+
+.lowTemp {
+  color: #5ca8f0;
+}
+
+.highTemp {
+  color:#ff6000;
+}
+
+.divDemand {
+  display: table-cell;
+  vertical-align: middle;
+}
